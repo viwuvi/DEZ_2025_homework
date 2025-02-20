@@ -1,0 +1,30 @@
+[0m18:19:48.589333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034721b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105165f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105165c40>]}
+
+
+============================== 18:19:48.592606 | 2dc05b5f-e68f-44ce-913a-b42858eec289 ==============================
+[0m18:19:48.592606 [info ] [MainThread]: Running with dbt=1.9.2
+[0m18:19:48.592965 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/vivian.wu/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init taxi_rides_ny_homework', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:19:48.603058 [debug] [MainThread]: Starter project path: /Users/vivian.wu/dbt_env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m18:19:48.608157 [info ] [MainThread]: 
+Your new dbt project "taxi_rides_ny_homework" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:19:48.608408 [info ] [MainThread]: Setting up your profile.
+[0m18:21:32.546393 [info ] [MainThread]: Profile taxi_rides_ny_homework written to /Users/vivian.wu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:21:32.552300 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 104.01475, "process_in_blocks": "0", "process_kernel_time": 0.258908, "process_mem_max_rss": "187170816", "process_out_blocks": "0", "process_user_time": 0.889234}
+[0m18:21:32.553059 [debug] [MainThread]: Command `dbt init` succeeded at 18:21:32.552932 after 104.02 seconds
+[0m18:21:32.553614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104643f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104586570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eaedeb0>]}
+[0m18:21:32.554116 [debug] [MainThread]: Flushing usage events
+[0m18:21:32.696064 [debug] [MainThread]: An error was encountered while trying to flush usage events
